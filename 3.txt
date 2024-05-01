@@ -27,7 +27,7 @@ git status
 git add -A
 git commit -m"submodule"
 git push -u origin main
-git submodule dinit --all
+git submodule deinit --all
 git status
 git config --global alias.st status
 git st
