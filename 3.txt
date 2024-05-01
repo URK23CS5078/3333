@@ -1,4 +1,4 @@
-ex 3
+ 3
 
 
 git status
@@ -13,3 +13,23 @@ git checkout main
 git status
 git merge fix main
 git push origin main
+
+
+
+....
+6
+
+git init
+git clone<URL>
+cd <REPO NAME>
+git submodule add <URL>
+git status
+git add -A
+git commit -m"submodule"
+git push -u origin main
+git submodule dinit --all
+git status
+git config --global alias.st status
+git st
+git config --global alais.br branch
+git br
