@@ -33,3 +33,21 @@ git config --global alias.st status
 git st
 git config --global alais.br branch
 git br
+
+
+
+
+
+
+5.
+
+git clone <my url>
+ls
+cd <my rep name>
+git remote add upstream <avangaloda url>
+git remote -v
+git fetch upstream
+git checkout main
+git branch 
+git merge upstream/<selected name>
+git push origin
